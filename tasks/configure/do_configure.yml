@@ -1,0 +1,10 @@
+- name: "Configure all Compton settings in '{{ compton_config_path }}'"
+  ansible.builtin.template:
+    dest: "{{ compton_config_path }}"
+    src: "compton_conf.j2"
+    owner: 'root'
+    mode: '644'
+    force: yes
+  become: true
+  become_user: root
+

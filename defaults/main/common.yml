@@ -1,0 +1,6 @@
+# command to execute to start compton
+compton_start_cmd: 'compton'
+
+# fade window transitions and window open/close
+fade_window_open_close: true
+
