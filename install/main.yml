@@ -1,0 +1,7 @@
+- name: "Install the 'compton' package"
+  ansible.builtin.package:
+    name: compton
+    state: present
+  become: true
+  become_user: root
+
