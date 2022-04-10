@@ -21,7 +21,7 @@ Install and configure the compton compositor.
 
 ## Supported Operating Systems
 
-* Ubuntu 20.04, 21.04, 21.10
+* Ubuntu focal (20.04), hirsute (21.04), impish (21.10)
 * FreeBSD.
 
 ## Quick Start

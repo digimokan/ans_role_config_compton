@@ -1,0 +1,20 @@
+galaxy_info:
+  author: digimokan
+  description: "Install and configure the compton compositor"
+  license: "MIT"
+  min_ansible_version: 2.7
+  platforms:
+    - name: Ubuntu
+      versions:
+        - focal
+        - hirsute
+        - impish
+    - name: FreeBSD
+      versions:
+        - all
+  galaxy_tags:
+    - ubuntu
+    - freebsd
+    - compositor
+    - compton
+
