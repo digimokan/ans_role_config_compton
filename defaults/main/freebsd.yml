@@ -1,0 +1,3 @@
+# Compton config file path
+freebsd_compton_config_path: '/usr/local/etc/xdg/compton.conf'
+

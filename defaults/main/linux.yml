@@ -1,0 +1,3 @@
+# Compton config file path
+linux_compton_config_path: '/etc/xdg/compton.conf'
+
