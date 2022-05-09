@@ -53,6 +53,7 @@ Install and configure the compton compositor.
        - name: "Install and configure the compton compositor"
          ansible.builtin.include_role:
            name: ans_role_config_compton
+           public: yes
    ```
 
 ## Role Options
